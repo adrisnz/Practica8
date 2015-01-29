@@ -3,9 +3,11 @@
  ini_set('display_errors','on');
  
     define('DS',DIRECTORY_SEPARATOR);
-    define('ROOT',realpath(dirname(__FILE__)).DS);//    practica8/
-    define('APP',ROOT.'app'.DS);//     practica8/app/
+    define('ROOT',realpath(dirname(__FILE__)).DS);
+    //to access filesystem
+    define('APP',ROOT.'app'.DS);
     define('APP_W',basename($_SERVER['SCRIPT_NAME']));
+
 
 
 

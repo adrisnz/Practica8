@@ -1,11 +1,23 @@
 
 <?php
-class prueba
+ require 'app/controller/controller.php';
+
+class Prueba extends Controller
 {
 
 
 
-    echo "probando bootstrap";
+function sum($params)
+{
+
+    $operandos=explode('/',$this->$params);
+
+
+  //  echo array_sum($operandos);
+
+
+}
+
 
 
 }            

@@ -1,4 +1,7 @@
 <?php  
+require 'app/controller/controller.php';
+require 'sys/config.php';
+
 class Home extends Controller{
 function __construct($params){
 
@@ -8,6 +11,15 @@ function __construct($params){
 
 	$this->model=new mHome;
 		$this->view=new vHome;
+
+}
+
+function home()
+{
+
+echo 'Esto es el home';
+
+
 
 }
 
